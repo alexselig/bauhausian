@@ -1,0 +1,1950 @@
+{
+  "schemaVersion": 1,
+  "title": "Ship a Skill implemented screen references",
+  "capturedAt": "2026-10-29T18:44:10.888Z",
+  "source": {
+    "origin": "https://pptshipskill.azurewebsites.net",
+    "commitSha": "eb9560e0011c160243e3e063c4a7e66afb6dde22",
+    "mode": "live-public-demo",
+    "authenticated": false
+  },
+  "data": "Built-in public demo fixtures only. No production records or authenticated session.",
+  "imageTreatment": "Unmodified viewport captures. Reduced-motion preference; no layout, content or CSS replacement.",
+  "limitations": [
+    "Demo/admin badges and sandbox footer are part of the live public demo and are intentionally retained.",
+    "External integrations are simulated by the site's demo; captures are visual references, not integration evidence.",
+    "Only the listed states and viewports are captured, not every possible empty, error or permission state.",
+    "Viewport captures preserve the fixed shell and internal scrollers; content below the fold is not expanded."
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "screens": [
+    {
+      "id": "public-landing-1440",
+      "screen": "public-landing",
+      "title": "Public landing",
+      "path": "/",
+      "interaction": null,
+      "file": "public-landing-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:13.653Z",
+      "sha256": "b2e5f2bb2b2c39e52afaa7f2bf0d68cc295eeba33969d0bad42f344101193de9",
+      "headings": [
+        "Ship a Skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "104px",
+        "weight": "800",
+        "lineHeight": "87.36px",
+        "letterSpacing": "-3.12px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "demo-overview-1440",
+      "screen": "demo-overview",
+      "title": "Demo introduction",
+      "path": "/demo",
+      "interaction": null,
+      "file": "demo-overview-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:14.696Z",
+      "sha256": "6bab2b15244d3b888151f1e1cf6f5a2e069e95f716c450dfdbcccc33473cfbd2",
+      "headings": [
+        "See Ship a Skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "84px",
+        "weight": "800",
+        "lineHeight": "71.4px",
+        "letterSpacing": "-2.52px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dashboard-1440",
+      "screen": "dashboard",
+      "title": "All Skills dashboard",
+      "path": "/demo/app?view=all",
+      "interaction": null,
+      "file": "dashboard-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:16.208Z",
+      "sha256": "e02353dc318123357e6d188d26d2e3ad7b5eae1c2cd0351b39d62d4ae0eb239a",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "80px",
+        "weight": "800",
+        "lineHeight": "68px",
+        "letterSpacing": "-3.2px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dashboard-filter-1440",
+      "screen": "dashboard-filter",
+      "title": "Dashboard filters",
+      "path": "/demo/app?view=all",
+      "interaction": "filter",
+      "file": "dashboard-filter-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:17.646Z",
+      "sha256": "cd6bf2fdd905bc958f81905aad4899a996c18e036841c782c318720b0e646482",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "80px",
+        "weight": "800",
+        "lineHeight": "68px",
+        "letterSpacing": "-3.2px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "my-skills-1440",
+      "screen": "my-skills",
+      "title": "My Skills dashboard",
+      "path": "/demo/app?view=mine",
+      "interaction": null,
+      "file": "my-skills-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:19.203Z",
+      "sha256": "c775c126a3225b43d40f73dc2dda5ff3c837b902506deb998ffbd0c8c01edaa1",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "80px",
+        "weight": "800",
+        "lineHeight": "68px",
+        "letterSpacing": "-3.2px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "add-skill-1440",
+      "screen": "add-skill",
+      "title": "Add Skill",
+      "path": "/demo/app/skills/new?from=all",
+      "interaction": null,
+      "file": "add-skill-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:20.727Z",
+      "sha256": "ef1e121a0e1b7f867298391a4356728dc4484cebaea44f889d0a20ebd6e011fe",
+      "headings": [
+        "Add skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "80px",
+        "weight": "800",
+        "lineHeight": "68.8px",
+        "letterSpacing": "-2.4px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "skill-details-1440",
+      "screen": "skill-details",
+      "title": "Skill Details",
+      "path": "/demo/app/skills/skill-5663f389?stage=skill-details",
+      "interaction": null,
+      "file": "skill-details-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:22.358Z",
+      "sha256": "f05ecad212148f89c7d90af20f4c97473120ee3fc5216d4310b78fdad66c17c7",
+      "headings": [
+        "Skill details"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "bridge-setup-1440",
+      "screen": "bridge-setup",
+      "title": "Copilot bridge setup",
+      "path": "/demo/app/skills/skill-3f20feab?stage=bridge-setup",
+      "interaction": null,
+      "file": "bridge-setup-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:23.993Z",
+      "sha256": "e1ef87862d067d91664ef7bdd93ea6c24f7ac2fab59d9868d84f13abc10689a5",
+      "headings": [
+        "Copilot bridge"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-audit-1440",
+      "screen": "create-audit",
+      "title": "Create / audit results",
+      "path": "/demo/app/skills/skill-3f20feab?stage=create",
+      "interaction": null,
+      "file": "create-audit-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:25.470Z",
+      "sha256": "3a9cfba525fe8d7b98e9f007ec3e59326fde9752b9c620a568c64690f68ea3d2",
+      "headings": [
+        "Create"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-upload-1440",
+      "screen": "create-upload",
+      "title": "Create / package upload",
+      "path": "/demo/app/skills/skill-3f20feab?stage=create",
+      "interaction": "upload",
+      "file": "create-upload-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:26.982Z",
+      "sha256": "78a009db7ecd7721bccca844ec2e873e664c2f20195615df6480644ba4b81d83",
+      "headings": [
+        "Create"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "provide-evals-1440",
+      "screen": "provide-evals",
+      "title": "Provide Evals",
+      "path": "/demo/app/skills/skill-3d213822?stage=provide-evals",
+      "interaction": null,
+      "file": "provide-evals-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:28.364Z",
+      "sha256": "11c0bcfb5f2469cb6b829234e66650df48c645ef91e58fe31c12e0ff25b6e1bf",
+      "headings": [
+        "Provide evals"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "eval-results-1440",
+      "screen": "eval-results",
+      "title": "Eval Results Review",
+      "path": "/demo/app/skills/skill-765e9f44?stage=eval-results-review",
+      "interaction": null,
+      "file": "eval-results-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:30.133Z",
+      "sha256": "5a5ab265b369c3449445b24f53732031549700f7cc5b2e5dda0312b041e591aa",
+      "headings": [
+        "Eval results review"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-pr-1440",
+      "screen": "create-pr",
+      "title": "Create PR",
+      "path": "/demo/app/skills/skill-6cc1214d?stage=create-pr",
+      "interaction": null,
+      "file": "create-pr-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:31.449Z",
+      "sha256": "35b890cfdc6533e1ae38e93736287de39a5ab3f14b0043d9125cd564c80db0cb",
+      "headings": [
+        "Create PR"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "ship-1440",
+      "screen": "ship",
+      "title": "Ship",
+      "path": "/demo/app/skills/skill-f6b3baac?stage=create-pr-ship",
+      "interaction": null,
+      "file": "ship-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:32.817Z",
+      "sha256": "1ec146cef0fd8e3375611f311999ca9dbdad428ba5ba54e2672f009b8d9fd952",
+      "headings": [
+        "Ship"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dogfood-1440",
+      "screen": "dogfood",
+      "title": "Dogfood",
+      "path": "/demo/app/skills/skill-3c3a4b52?stage=dogfood",
+      "interaction": null,
+      "file": "dogfood-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:34.240Z",
+      "sha256": "0d57a5fa87b85a32fb78b2fac7102869f4ad4d5c94bc77e98427513823b1e3ca",
+      "headings": [
+        "Dogfood"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.368px",
+        "weight": "800",
+        "lineHeight": "57.0312px",
+        "letterSpacing": "-1.26736px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "submit-review-1440",
+      "screen": "submit-review",
+      "title": "Submit for review",
+      "path": "/demo/app/skills/skill-c393a8c1?stage=submit",
+      "interaction": null,
+      "file": "submit-review-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:35.720Z",
+      "sha256": "65d32ea072a50747072e3eee008541e0796b866d033ef7758f421e9c4cf70540",
+      "headings": [
+        "Submit for final review"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "63.36px",
+        "weight": "800",
+        "lineHeight": "60.192px",
+        "letterSpacing": "-0.6336px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "final-review-queue-1440",
+      "screen": "final-review-queue",
+      "title": "Final review queue",
+      "path": "/demo/app/review",
+      "interaction": null,
+      "file": "final-review-queue-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:37.362Z",
+      "sha256": "cd99fc68a006c92913fabeca58bdf1471aec71bad02f46c819ab791b329bb786",
+      "headings": [
+        "ReviewQueue"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "64px",
+        "weight": "800",
+        "lineHeight": "56px",
+        "letterSpacing": "-1.92px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "final-review-decision-1440",
+      "screen": "final-review-decision",
+      "title": "Final review decision",
+      "path": "/demo/app/review/submission-e2e-0001",
+      "interaction": null,
+      "file": "final-review-decision-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:38.812Z",
+      "sha256": "a714061900557cab45bd1d1c8e74dcd1180016736ee29f3010a6f18ea9884610",
+      "headings": [
+        "customer-story-slides"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "34px",
+        "weight": "800",
+        "lineHeight": "32.3px",
+        "letterSpacing": "-0.68px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "settings-menu-1440",
+      "screen": "settings-menu",
+      "title": "Settings menu",
+      "path": "/demo/app?view=all",
+      "interaction": "settings",
+      "file": "settings-menu-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:42.714Z",
+      "sha256": "3d523356faf9b15d4de87b36f4d1fff3628f7ef5d8a3579daca395f26e86d1d3",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "80px",
+        "weight": "800",
+        "lineHeight": "68px",
+        "letterSpacing": "-3.2px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "admin-reviewers-1440",
+      "screen": "admin-reviewers",
+      "title": "Admin reviewers",
+      "path": "/demo/app/settings/reviewers",
+      "interaction": null,
+      "file": "admin-reviewers-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:44.773Z",
+      "sha256": "2a92dd4d58e941713fdd097db91657c39b4d9081c8e7b42b9d989112c67108a8",
+      "headings": [
+        "Review Settings"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "72px",
+        "weight": "800",
+        "lineHeight": "61.92px",
+        "letterSpacing": "-2.16px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "admin-engineers-1440",
+      "screen": "admin-engineers",
+      "title": "Admin engineers",
+      "path": "/demo/app/settings/engineers",
+      "interaction": null,
+      "file": "admin-engineers-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:46.582Z",
+      "sha256": "9565bbf30a2ccf549a0ff15a3b2ad35632c31e901b47b43c069df0a2c4448d9d",
+      "headings": [
+        "Admin Engineers"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "57.6px",
+        "weight": "800",
+        "lineHeight": "49.536px",
+        "letterSpacing": "-1.728px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "process-configuration-1440",
+      "screen": "process-configuration",
+      "title": "Process configuration",
+      "path": "/demo/app/settings/process",
+      "interaction": null,
+      "file": "process-configuration-1440.png",
+      "width": 1440,
+      "height": 1000,
+      "capturedAt": "2026-10-29T18:44:48.185Z",
+      "sha256": "8b04b24b4782f6b946dea65c397c4c5bc61607dc4ae8ffab6195802a9f0cce15",
+      "headings": [
+        "Admin Engineers"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "57.6px",
+        "weight": "800",
+        "lineHeight": "49.536px",
+        "letterSpacing": "-1.728px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "public-landing-768",
+      "screen": "public-landing",
+      "title": "Public landing",
+      "path": "/",
+      "interaction": null,
+      "file": "public-landing-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:44:51.755Z",
+      "sha256": "df2ba8a7735406c6f6c93dfe3db3f55d2d46e1f67b9f99fde1acf0eb5cbcc140",
+      "headings": [
+        "Ship a Skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "76.8px",
+        "weight": "800",
+        "lineHeight": "64.512px",
+        "letterSpacing": "-2.304px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "demo-overview-768",
+      "screen": "demo-overview",
+      "title": "Demo introduction",
+      "path": "/demo",
+      "interaction": null,
+      "file": "demo-overview-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:44:52.771Z",
+      "sha256": "68932ac4727a9dcdfb10c2aedcdb54b14b5cf3b3196af988d8f9ef9991833319",
+      "headings": [
+        "See Ship a Skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "84px",
+        "weight": "800",
+        "lineHeight": "71.4px",
+        "letterSpacing": "-2.52px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dashboard-768",
+      "screen": "dashboard",
+      "title": "All Skills dashboard",
+      "path": "/demo/app?view=all",
+      "interaction": null,
+      "file": "dashboard-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:44:54.350Z",
+      "sha256": "c870c1e28a9c89a1b82933542d527bcd7fd6c2a21ec1cc319cdb026355e353c3",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "59.904px",
+        "weight": "800",
+        "lineHeight": "50.9184px",
+        "letterSpacing": "-2.39616px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dashboard-filter-768",
+      "screen": "dashboard-filter",
+      "title": "Dashboard filters",
+      "path": "/demo/app?view=all",
+      "interaction": "filter",
+      "file": "dashboard-filter-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:44:56.507Z",
+      "sha256": "30c71c309586e5245dc9bfa28ca5cbe40d176f0c9fac3ccb2894d7f4b7d6e74e",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "59.904px",
+        "weight": "800",
+        "lineHeight": "50.9184px",
+        "letterSpacing": "-2.39616px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "my-skills-768",
+      "screen": "my-skills",
+      "title": "My Skills dashboard",
+      "path": "/demo/app?view=mine",
+      "interaction": null,
+      "file": "my-skills-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:44:58.184Z",
+      "sha256": "b790a61a2160579f8ec7072575c3aa2991b9a67157baad76544b637fbc350cb3",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "59.904px",
+        "weight": "800",
+        "lineHeight": "50.9184px",
+        "letterSpacing": "-2.39616px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "add-skill-768",
+      "screen": "add-skill",
+      "title": "Add Skill",
+      "path": "/demo/app/skills/new?from=all",
+      "interaction": null,
+      "file": "add-skill-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:44:59.656Z",
+      "sha256": "48c530be3f38c8a9c39f86fac46e9f7950dde2ffeea9784d87b031a6e3abd2a6",
+      "headings": [
+        "Add skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "62px",
+        "weight": "800",
+        "lineHeight": "53.32px",
+        "letterSpacing": "-1.86px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "skill-details-768",
+      "screen": "skill-details",
+      "title": "Skill Details",
+      "path": "/demo/app/skills/skill-5663f389?stage=skill-details",
+      "interaction": null,
+      "file": "skill-details-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:01.045Z",
+      "sha256": "fffe16200410e9cb28f7a8dc061a79944c9e512aff72ddbc00f6c02b6d05b4f6",
+      "headings": [
+        "Skill details"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "bridge-setup-768",
+      "screen": "bridge-setup",
+      "title": "Copilot bridge setup",
+      "path": "/demo/app/skills/skill-3f20feab?stage=bridge-setup",
+      "interaction": null,
+      "file": "bridge-setup-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:02.556Z",
+      "sha256": "93a3906fa84b40fde604b88883869f5bee832dfbbecb107048c8861b9ccf9a55",
+      "headings": [
+        "Copilot bridge"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-audit-768",
+      "screen": "create-audit",
+      "title": "Create / audit results",
+      "path": "/demo/app/skills/skill-3f20feab?stage=create",
+      "interaction": null,
+      "file": "create-audit-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:04.270Z",
+      "sha256": "eb4d0748ecfb7358760679b2e9b7e91940b38407860856c881d1df160980ef83",
+      "headings": [
+        "Create"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-upload-768",
+      "screen": "create-upload",
+      "title": "Create / package upload",
+      "path": "/demo/app/skills/skill-3f20feab?stage=create",
+      "interaction": "upload",
+      "file": "create-upload-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:05.729Z",
+      "sha256": "1707d1bf85d7158db73e837edc12718d46cbc75afe5451ba08568be2c9fcc8a8",
+      "headings": [
+        "Create"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "provide-evals-768",
+      "screen": "provide-evals",
+      "title": "Provide Evals",
+      "path": "/demo/app/skills/skill-3d213822?stage=provide-evals",
+      "interaction": null,
+      "file": "provide-evals-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:07.234Z",
+      "sha256": "7aad820d8d9d8b3f56a3a3b3e62c1600eb5822147a24b33fa1411dfdbeaf576f",
+      "headings": [
+        "Provide evals"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "eval-results-768",
+      "screen": "eval-results",
+      "title": "Eval Results Review",
+      "path": "/demo/app/skills/skill-765e9f44?stage=eval-results-review",
+      "interaction": null,
+      "file": "eval-results-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:09.073Z",
+      "sha256": "562653d98a746dc40e7b140b5530ca283ba2b15f30a6373a16e0248522c91224",
+      "headings": [
+        "Eval results review"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-pr-768",
+      "screen": "create-pr",
+      "title": "Create PR",
+      "path": "/demo/app/skills/skill-6cc1214d?stage=create-pr",
+      "interaction": null,
+      "file": "create-pr-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:10.890Z",
+      "sha256": "7ba6632f794572586561bff51e4fd0990ee0bb7d38f7ae272ee0de9be4238147",
+      "headings": [
+        "Create PR"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "ship-768",
+      "screen": "ship",
+      "title": "Ship",
+      "path": "/demo/app/skills/skill-f6b3baac?stage=create-pr-ship",
+      "interaction": null,
+      "file": "ship-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:12.363Z",
+      "sha256": "a6b20beab12033cdd49763485752ded1a3c3f0b7236dedc4b294a73dfdec4d8d",
+      "headings": [
+        "Ship"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dogfood-768",
+      "screen": "dogfood",
+      "title": "Dogfood",
+      "path": "/demo/app/skills/skill-3c3a4b52?stage=dogfood",
+      "interaction": null,
+      "file": "dogfood-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:13.913Z",
+      "sha256": "fe0a7ba078c66411844c84a12986cf293dec6e139ff9a15726050ee2fa857fd7",
+      "headings": [
+        "Dogfood"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "43.2px",
+        "letterSpacing": "-0.96px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "submit-review-768",
+      "screen": "submit-review",
+      "title": "Submit for review",
+      "path": "/demo/app/skills/skill-c393a8c1?stage=submit",
+      "interaction": null,
+      "file": "submit-review-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:16.265Z",
+      "sha256": "1aabd5511a8a6034ad747870ce2be006b853f31280014f6ecadf5f0c349a0e3c",
+      "headings": [
+        "Submit for final review"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "36px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.36px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "final-review-queue-768",
+      "screen": "final-review-queue",
+      "title": "Final review queue",
+      "path": "/demo/app/review",
+      "interaction": null,
+      "file": "final-review-queue-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:18.036Z",
+      "sha256": "e549f9d45aae801c83a93480f64ba138b82b54aa17f3a3dd451867c20d28afe5",
+      "headings": [
+        "ReviewQueue"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "64px",
+        "weight": "800",
+        "lineHeight": "56px",
+        "letterSpacing": "-1.92px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "final-review-decision-768",
+      "screen": "final-review-decision",
+      "title": "Final review decision",
+      "path": "/demo/app/review/submission-e2e-0001",
+      "interaction": null,
+      "file": "final-review-decision-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:19.962Z",
+      "sha256": "2eb7eca68450f615572d076fd2898019c9e083ae9c980fce28e20006cda0974f",
+      "headings": [
+        "customer-story-slides"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "34px",
+        "weight": "800",
+        "lineHeight": "32.3px",
+        "letterSpacing": "-0.68px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "settings-menu-768",
+      "screen": "settings-menu",
+      "title": "Settings menu",
+      "path": "/demo/app?view=all",
+      "interaction": "settings",
+      "file": "settings-menu-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:21.776Z",
+      "sha256": "14f57478dd3231a466936625a139c391fc2994811ca1964164d5a8c8fed1f2b5",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "59.904px",
+        "weight": "800",
+        "lineHeight": "50.9184px",
+        "letterSpacing": "-2.39616px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "admin-reviewers-768",
+      "screen": "admin-reviewers",
+      "title": "Admin reviewers",
+      "path": "/demo/app/settings/reviewers",
+      "interaction": null,
+      "file": "admin-reviewers-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:23.092Z",
+      "sha256": "e0667a69582b0c86d58b7cf02fe923df865b2c230235bbfbe470f1e597091e15",
+      "headings": [
+        "Review Settings"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "44px",
+        "weight": "800",
+        "lineHeight": "37.84px",
+        "letterSpacing": "-1.32px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "admin-engineers-768",
+      "screen": "admin-engineers",
+      "title": "Admin engineers",
+      "path": "/demo/app/settings/engineers",
+      "interaction": null,
+      "file": "admin-engineers-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:24.823Z",
+      "sha256": "2f73462176365b60da7b04eb80c02a2593b9e6d19bd06975be0e3b8c539f12a3",
+      "headings": [
+        "Admin Engineers"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "36px",
+        "weight": "800",
+        "lineHeight": "30.96px",
+        "letterSpacing": "-1.08px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "process-configuration-768",
+      "screen": "process-configuration",
+      "title": "Process configuration",
+      "path": "/demo/app/settings/process",
+      "interaction": null,
+      "file": "process-configuration-768.png",
+      "width": 768,
+      "height": 1024,
+      "capturedAt": "2026-10-29T18:45:27.241Z",
+      "sha256": "495a5cd2a9a97f1f58057a478e5176ffe96c9cd0164be9d97f255d1d270ed441",
+      "headings": [
+        "Admin Engineers"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "36px",
+        "weight": "800",
+        "lineHeight": "30.96px",
+        "letterSpacing": "-1.08px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "public-landing-390",
+      "screen": "public-landing",
+      "title": "Public landing",
+      "path": "/",
+      "interaction": null,
+      "file": "public-landing-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:30.254Z",
+      "sha256": "2a3de9f1f63f8bf4d646b2bd721c031b357fcf8da05326b257c8b310aaec8f2c",
+      "headings": [
+        "Ship a Skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "60px",
+        "weight": "800",
+        "lineHeight": "55.2px",
+        "letterSpacing": "-1.8px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "demo-overview-390",
+      "screen": "demo-overview",
+      "title": "Demo introduction",
+      "path": "/demo",
+      "interaction": null,
+      "file": "demo-overview-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:31.238Z",
+      "sha256": "eb48ac4b02ce81915e33485e8563814340caa12ae973065b335b3c05465cb468",
+      "headings": [
+        "See Ship a Skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "84px",
+        "weight": "800",
+        "lineHeight": "71.4px",
+        "letterSpacing": "-2.52px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dashboard-390",
+      "screen": "dashboard",
+      "title": "All Skills dashboard",
+      "path": "/demo/app?view=all",
+      "interaction": null,
+      "file": "dashboard-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:32.733Z",
+      "sha256": "48939ab7dd0ed0c96a3adaf62612403c06fa454f8c8a5190c0277d469832a3b7",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "40.8px",
+        "letterSpacing": "-1.92px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dashboard-filter-390",
+      "screen": "dashboard-filter",
+      "title": "Dashboard filters",
+      "path": "/demo/app?view=all",
+      "interaction": "filter",
+      "file": "dashboard-filter-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:34.193Z",
+      "sha256": "d090fe1e4bccde60a74038f2c3ddc09cdf7be89eb38231b73fc31f180ca169b0",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "40.8px",
+        "letterSpacing": "-1.92px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "my-skills-390",
+      "screen": "my-skills",
+      "title": "My Skills dashboard",
+      "path": "/demo/app?view=mine",
+      "interaction": null,
+      "file": "my-skills-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:35.695Z",
+      "sha256": "48939ab7dd0ed0c96a3adaf62612403c06fa454f8c8a5190c0277d469832a3b7",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "40.8px",
+        "letterSpacing": "-1.92px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "add-skill-390",
+      "screen": "add-skill",
+      "title": "Add Skill",
+      "path": "/demo/app/skills/new?from=all",
+      "interaction": null,
+      "file": "add-skill-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:37.263Z",
+      "sha256": "db940614b241dbde6a2558a0498340e76914b1167f77819064c1e45f9b1b1fd6",
+      "headings": [
+        "Add skill"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "44px",
+        "weight": "800",
+        "lineHeight": "44px",
+        "letterSpacing": "-1.32px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "skill-details-390",
+      "screen": "skill-details",
+      "title": "Skill Details",
+      "path": "/demo/app/skills/skill-5663f389?stage=skill-details",
+      "interaction": null,
+      "file": "skill-details-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:38.663Z",
+      "sha256": "2785b5bf50f39bfa6501f8d55266f0e0c7288a03b8e28158054efd39c976e2dc",
+      "headings": [
+        "Skill details"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "bridge-setup-390",
+      "screen": "bridge-setup",
+      "title": "Copilot bridge setup",
+      "path": "/demo/app/skills/skill-3f20feab?stage=bridge-setup",
+      "interaction": null,
+      "file": "bridge-setup-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:40.200Z",
+      "sha256": "d299633b420344e9269d1a3dbe8803ff3a6d3b298a37bed802cb9f3793bc5c25",
+      "headings": [
+        "Copilot bridge"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-audit-390",
+      "screen": "create-audit",
+      "title": "Create / audit results",
+      "path": "/demo/app/skills/skill-3f20feab?stage=create",
+      "interaction": null,
+      "file": "create-audit-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:41.776Z",
+      "sha256": "df87dbf1de5a26d24144408a213228348f183af903f8b56038b0a0cb715f7db3",
+      "headings": [
+        "Create"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-upload-390",
+      "screen": "create-upload",
+      "title": "Create / package upload",
+      "path": "/demo/app/skills/skill-3f20feab?stage=create",
+      "interaction": "upload",
+      "file": "create-upload-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:43.122Z",
+      "sha256": "d9ce70e2e6bf0630eaf9bb3692e201862467d9aed35051f13d0004e3d2afb881",
+      "headings": [
+        "Create"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "provide-evals-390",
+      "screen": "provide-evals",
+      "title": "Provide Evals",
+      "path": "/demo/app/skills/skill-3d213822?stage=provide-evals",
+      "interaction": null,
+      "file": "provide-evals-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:44.386Z",
+      "sha256": "af885c71747441e0183d875748c2751d43549a7654c33a50239c0cae1effa565",
+      "headings": [
+        "Provide evals"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "eval-results-390",
+      "screen": "eval-results",
+      "title": "Eval Results Review",
+      "path": "/demo/app/skills/skill-765e9f44?stage=eval-results-review",
+      "interaction": null,
+      "file": "eval-results-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:45.704Z",
+      "sha256": "50efe9340c14ac73b6f8efd8a77e6f2b1e04a01fc3d771bef12de4c0cddd0a28",
+      "headings": [
+        "Eval results review"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "create-pr-390",
+      "screen": "create-pr",
+      "title": "Create PR",
+      "path": "/demo/app/skills/skill-6cc1214d?stage=create-pr",
+      "interaction": null,
+      "file": "create-pr-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:47.205Z",
+      "sha256": "df388373c24e391f0eb4e5bb445d71642e3bebc192f85d6d2ea73f1146a6a300",
+      "headings": [
+        "Create PR"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "ship-390",
+      "screen": "ship",
+      "title": "Ship",
+      "path": "/demo/app/skills/skill-f6b3baac?stage=create-pr-ship",
+      "interaction": null,
+      "file": "ship-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:48.634Z",
+      "sha256": "440a8b26bc28a10197e0735fd587b97aff10505ab30cc88c3c3f580277e9fc6c",
+      "headings": [
+        "Ship"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "dogfood-390",
+      "screen": "dogfood",
+      "title": "Dogfood",
+      "path": "/demo/app/skills/skill-3c3a4b52?stage=dogfood",
+      "interaction": null,
+      "file": "dogfood-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:50.039Z",
+      "sha256": "51898dccaf720c904d04804d459b5b8ba822e0bed013882cd74f18e46be8403b",
+      "headings": [
+        "Dogfood"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "38px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.76px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "submit-review-390",
+      "screen": "submit-review",
+      "title": "Submit for review",
+      "path": "/demo/app/skills/skill-c393a8c1?stage=submit",
+      "interaction": null,
+      "file": "submit-review-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:51.548Z",
+      "sha256": "8bb91024d78f9488040d6262c69b4d1152fd0af48f01a50da737b916d5b42034",
+      "headings": [
+        "Submit for final review"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "36px",
+        "weight": "800",
+        "lineHeight": "34.2px",
+        "letterSpacing": "-0.36px",
+        "textTransform": "none"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "final-review-queue-390",
+      "screen": "final-review-queue",
+      "title": "Final review queue",
+      "path": "/demo/app/review",
+      "interaction": null,
+      "file": "final-review-queue-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:53.032Z",
+      "sha256": "39993e06128a3968c8066fe289d24dcc43cdb7e0382fd4f358e4f2664e98eadd",
+      "headings": [
+        "ReviewQueue"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "64px",
+        "weight": "800",
+        "lineHeight": "56px",
+        "letterSpacing": "-1.92px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "final-review-decision-390",
+      "screen": "final-review-decision",
+      "title": "Final review decision",
+      "path": "/demo/app/review/submission-e2e-0001",
+      "interaction": null,
+      "file": "final-review-decision-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:54.669Z",
+      "sha256": "522c0e0b411f64be6f7a6e6e80e83177e57ad80e5b841f947413243fcb750702",
+      "headings": [
+        "customer-story-slides"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "34px",
+        "weight": "800",
+        "lineHeight": "32.3px",
+        "letterSpacing": "-0.68px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "settings-menu-390",
+      "screen": "settings-menu",
+      "title": "Settings menu",
+      "path": "/demo/app?view=all",
+      "interaction": "settings",
+      "file": "settings-menu-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:56.146Z",
+      "sha256": "4985d79cf752994cdb6afb8f485f7ac6f674d4ee0fc88c7ef9acd20d7958d7d5",
+      "headings": [
+        "Skills"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "48px",
+        "weight": "800",
+        "lineHeight": "40.8px",
+        "letterSpacing": "-1.92px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "admin-reviewers-390",
+      "screen": "admin-reviewers",
+      "title": "Admin reviewers",
+      "path": "/demo/app/settings/reviewers",
+      "interaction": null,
+      "file": "admin-reviewers-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:57.603Z",
+      "sha256": "1ab4444c255bb6461c86a98c932756b76f4b99c0eda57e3f4596d97fe049319e",
+      "headings": [
+        "Review Settings"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "44px",
+        "weight": "800",
+        "lineHeight": "37.84px",
+        "letterSpacing": "-1.32px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "admin-engineers-390",
+      "screen": "admin-engineers",
+      "title": "Admin engineers",
+      "path": "/demo/app/settings/engineers",
+      "interaction": null,
+      "file": "admin-engineers-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:45:59.134Z",
+      "sha256": "362a55022d0a1ddb76300bbbb9ab7731cecf2e72bab285e54445a78c7910cded",
+      "headings": [
+        "Admin Engineers"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "36px",
+        "weight": "800",
+        "lineHeight": "30.96px",
+        "letterSpacing": "-1.08px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    },
+    {
+      "id": "process-configuration-390",
+      "screen": "process-configuration",
+      "title": "Process configuration",
+      "path": "/demo/app/settings/process",
+      "interaction": null,
+      "file": "process-configuration-390.png",
+      "width": 390,
+      "height": 844,
+      "capturedAt": "2026-10-29T18:46:00.541Z",
+      "sha256": "c8ed774e9a528b34015085198062fd40db0c5ead1e0b195d1fe2bf64d2aebdda",
+      "headings": [
+        "Admin Engineers"
+      ],
+      "fonts": {
+        "display": "\"League Spartan\",\"League Spartan Fallback\"",
+        "sans": "\"Figtree\",\"Figtree Fallback\"",
+        "mono": "\"JetBrains Mono\",\"JetBrains Mono Fallback\""
+      },
+      "headingStyle": {
+        "family": "\"League Spartan\", \"League Spartan Fallback\"",
+        "size": "36px",
+        "weight": "800",
+        "lineHeight": "30.96px",
+        "letterSpacing": "-1.08px",
+        "textTransform": "uppercase"
+      },
+      "pageOverflow": false
+    }
+  ],
+  "verifiedAt": "2026-10-29T18:46:00.867Z"
+}

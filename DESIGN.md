@@ -61,7 +61,7 @@
     "size-control-inline": "36px",
     "font-display": "\"League Spartan\", Futura, \"Avenir Next\", system-ui, sans-serif",
     "font-sans": "Figtree, \"Avenir Next\", system-ui, sans-serif",
-    "font-mono": "\"IBM Plex Mono\", \"SFMono-Regular\", Consolas, monospace",
+    "font-mono": "\"JetBrains Mono\", \"SFMono-Regular\", Consolas, monospace",
     "type-poster": "800 84px/0.85 var(--font-display)",
     "type-stage-title": "800 64px/0.9 var(--font-display)",
     "type-title": "700 32px/1.1 var(--font-display)",
@@ -85,15 +85,20 @@ The interface is a workbench, not a collection of floating cards.
 
 This is a standalone expression of Alex's existing Bauhausian design language.
 The palette and component proportions follow the application-style workbench,
-not the editorial security guide. The established Bauhausian specification
+not the editorial security guide. [Implemented screen references](references/ship-a-skill/README.md)
+are the visual authority for reproducing the application. The generic component
+showcase is an interpretation, not a screen extraction. The established Bauhausian specification
 provides the principles; the workbench refines blue tints, frame weights,
 typographic scale and shell dimensions. This is not a new theme or a historical
 reconstruction of the Bauhaus school.
 
 It is a sibling of other design systems, not a variant. Do not mix in their
 colors, typography or component conventions. Only design primitives and
-original, fictional examples belong here: no application logic, customer data,
-internal endpoints, branding assets or operational documentation.
+original, fictional examples belong here, together with the explicitly requested
+live public-demo screenshots. Those screenshots retain the application's visible
+branding and synthetic records; they do not redistribute its source or assets.
+Do not add application logic, customer data, authenticated screens, credentials
+or operational documentation.
 
 The frontmatter is the token source of truth. It is JSON, a valid YAML 1.2
 subset, so the generator uses only Python's standard library. Edit this file
@@ -101,9 +106,11 @@ and run `python3 build-tokens.py`; never hand-edit `bauhausian-tokens.css`.
 
 ## The visual signature
 
-One large orange title cell anchors a flat ruled grid. White neighboring cells
-hold useful numbers or content. Blue marks the active navigation item and the
-primary action. The signature comes from proportion and type, not decoration.
+The overview uses an orange title cell beside white lifecycle counters.
+Workflow screens instead use a large blue stage-title band beside a persistent
+stage rail, with white task sections below. Blue also marks active navigation.
+Do not turn every page into an orange poster: the dominant field depends on the
+screen's job. The signature comes from proportion and type, not decoration.
 
 ```text
 +-------------------+----------------------+--------------------+
@@ -123,6 +130,23 @@ primary action. The signature comes from proportion and type, not decoration.
 Use the full workbench when there is genuine information to organize. A short
 form can be a single column; do not manufacture metrics to fill a grid.
 
+```text
++-------------------+----------------------+--------------------+
+| product           | navigation           | identity           |
++-------------------+-------------------------------------------+
+| skill identity    | BLUE STAGE TITLE             progress      |
+| stage rail        +-------------------------------------------+
+| current step      | task sections / evidence                   |
+| next steps        | independent inner scrolling                |
++-------------------+-------------------------------------------+
+| persistent capability and utility footer                      |
++--------------------------------------------------------------+
+```
+
+The implemented application uses a viewport-height shell with an inner scroller,
+a 260px desktop stage rail and a persistent footer. The standalone showcase is
+a scrolling specimen document; its page geometry is not the application shell.
+
 ## Color has a job
 
 | Role | Token | Use |
@@ -132,7 +156,7 @@ form can be a single column; do not manufacture metrics to fill a grid.
 | Main text | `--ink` | Content, headings and frame rules |
 | Secondary text | `--ink-muted` | Supporting copy, never disabled-looking instructions |
 | Action | `--bauhaus-blue` | Primary action, active navigation, focus |
-| Frame | `--bauhaus-orange` | One dominant title/framing region |
+| Frame | `--bauhaus-orange` | Overview title/framing region, not every stage |
 | Accent | `--bauhaus-yellow` | Small, tertiary emphasis |
 | Verified | `--success` | Confirmed successful state with a text label |
 | Warning | `--warning` | A condition that needs attention |
@@ -149,9 +173,15 @@ colors. Do not introduce the optional bright approval-green as body text.
 
 | Role | Family | Treatment |
 | --- | --- | --- |
-| Display and chrome | League Spartan | Bold, uppercase, compact |
+| Display and chrome | League Spartan | Bold and compact; case follows the role |
 | Content and forms | Figtree | Sentence case, 15px/1.5 baseline |
-| Counts and technical data | IBM Plex Mono | Tabular numbers, restrained use |
+| Counts and technical data | JetBrains Mono | Tabular numbers, restrained use |
+
+This corrects the initial library's IBM Plex Mono substitution. The deployed
+application loads League Spartan, Figtree and JetBrains Mono; actual loaded
+families and computed heading styles are recorded with each reference capture.
+Dashboard poster labels and navigation are uppercase. Stage headings such as
+"Create" and "Provide evals" are sentence case; do not uppercase them globally.
 
 The stacks contain local fallbacks. Fonts are not bundled. The optional
 `fonts.css` loads those families from Google Fonts; omit it in offline/private

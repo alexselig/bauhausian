@@ -58,7 +58,7 @@
   --size-control-inline: 36px;
   --font-display: "League Spartan", Futura, "Avenir Next", system-ui, sans-serif;
   --font-sans: Figtree, "Avenir Next", system-ui, sans-serif;
-  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
   --type-poster: 800 84px/0.85 var(--font-display);
   --type-stage-title: 800 64px/0.9 var(--font-display);
   --type-title: 700 32px/1.1 var(--font-display);

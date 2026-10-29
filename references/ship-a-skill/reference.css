@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--surface); color: var(--ink); font: var(--type-body); }
+a { color: var(--bauhaus-blue); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--bauhaus-blue); outline-offset: 3px; }
+header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 20px 24px; border-bottom: var(--rule-frame); }
+header span, .eyebrow { font: var(--type-eyebrow); letter-spacing: .1em; text-transform: uppercase; }
+main { max-width: 1680px; margin: auto; padding: 32px 24px; }
+h1 { font: var(--type-stage-title); font-size: clamp(36px, 5vw, 64px); letter-spacing: -.025em; margin: 16px 0 24px; }
+main > p { max-width: 90ch; }
+code { font: var(--type-mono); overflow-wrap: anywhere; }
+.controls { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; padding: 16px 0; margin: 24px 0; border-top: var(--rule-region); border-bottom: var(--rule-region); }
+label { font-weight: 600; }
+select { min-height: 48px; padding: 8px 32px 8px 12px; border: 1px solid var(--ink); border-radius: 0; background: var(--surface); color: var(--ink); font: inherit; }
+#selection { color: var(--ink-muted); font: var(--type-mono); }
+.gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+figure { margin: 0; min-width: 0; border: var(--rule-region); }
+.capture { display: block; background: var(--surface-alt); text-align: center; padding: 12px; }
+img { display: block; max-width: 100%; width: auto; height: auto; margin: auto; }
+.capture[data-width="390"] img { max-height: 650px; width: auto; }
+figcaption { border-top: var(--rule-region); padding: 20px; }
+h2 { font: var(--type-heading); margin: 0 0 12px; }
+figcaption p { margin: 8px 0; font-size: 13px; color: var(--ink-muted); }
+.route { font-family: var(--font-mono); overflow-wrap: anywhere; }
+aside { margin-top: 32px; border-top: var(--rule-frame); padding-top: 24px; }
+@media (max-width: 719px) {
+  main { padding: 24px 16px; }
+  .gallery { grid-template-columns: 1fr; gap: 16px; }
+  header { padding: 16px; }
+}

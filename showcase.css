@@ -12,6 +12,7 @@ body.bh { margin: 0; background: var(--draft-line); }
 .masthead nav a[aria-current] { background: var(--bauhaus-blue); color: var(--on-blue); }
 .masthead nav a[aria-current]:focus-visible { outline-color: var(--on-blue); outline-offset: -5px; }
 .source-link { align-self: center; margin-left: auto; padding: 16px 24px; font-size: 13px; }
+.reference-notice { padding: 16px 24px; border-bottom: var(--rule-region); background: var(--blue-soft); font-size: 13px; }
 .title-grid { display: grid; grid-template-columns: minmax(320px, .85fr) 1.15fr; border-bottom: var(--rule-frame); }
 .poster { display: flex; flex-direction: column; justify-content: space-between; gap: 32px; padding: 32px; border-right: var(--rule-frame); background: var(--bauhaus-orange); color: var(--on-orange); }
 .poster h1 { margin: 0; font: var(--type-poster); font-size: clamp(48px, 6.6vw, 84px); text-transform: uppercase; letter-spacing: -.04em; }

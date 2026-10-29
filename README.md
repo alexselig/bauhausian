@@ -6,7 +6,26 @@ A standalone design system for dense tools and inspectable workflows.
 White surfaces, orange framing, blue action, hard black rules and square
 controls. Maintained by Alex Selig.
 
-![Bauhausian workbench, palette, typography and component specimens](preview.png)
+## Implemented screens first
+
+**[Browse the Ship a Skill screen references](references/ship-a-skill/README.md)**,
+or open [`references/ship-a-skill/index.html`](references/ship-a-skill/index.html)
+locally for the visual gallery. These are captures of the deployed application's
+public demo, with synthetic records, source revision, viewport, date and hashes.
+They are not redesigned or reconstructed screens.
+
+![Actual Ship a Skill dashboard captured from the live public demo](references/ship-a-skill/2026-10-29T18-44-10-888Z-eb9560e/dashboard-1440.png)
+
+The component specimen below is a generic interpretation, **not an extraction
+of Ship a Skill**. Use the reference gallery as the visual authority for the
+actual shell, stage rail, blue title bands, forms and task layouts.
+
+<details>
+<summary>Generic component specimen (not an application screen)</summary>
+
+![Generic Bauhausian component specimen, not a Ship a Skill screen capture](preview.png)
+
+</details>
 
 ## Start here
 
@@ -26,7 +45,7 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 Then visit `http://127.0.0.1:8080`. No package install or application server is
 needed. No fonts are loaded remotely by default. For the intended League
-Spartan / Figtree / IBM Plex Mono typography, include `fonts.css` before
+Spartan / Figtree / JetBrains Mono typography, include `fonts.css` before
 `components.css`, or provide approved self-hosted faces.
 
 ## Use in a project
@@ -68,7 +87,10 @@ Playwright is test-only; the design package itself has no runtime dependencies.
 ## Scope
 
 This preserves an existing Bauhausian application design language, not its
-application implementation. The examples are original and fictional. There
-are no customer records, internal endpoints, credentials or application assets.
+application implementation. The specimen examples are original and fictional.
+The reference screenshots are from the deployed public demo with its existing
+synthetic records and visible branding, not authenticated production sessions.
+There are no customer records, credentials, application source files or extracted
+application assets.
 This repository is a design reference, not a historical Bauhaus reproduction
 or a fully accessibility-certified component library.

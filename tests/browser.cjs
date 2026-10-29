@@ -71,7 +71,31 @@ async function main() {
     assert.equal(await page.locator("#sample-open").evaluate(el => getComputedStyle(el).transitionDuration), "0s");
     assert.deepEqual(errors, []);
     assert.deepEqual(remote, []);
-    console.log("PASS: widths, sheet cap, touch targets, keyboard, filters, dialog, reduced motion and offline assets.");
+    await page.goto(pathToFileURL(path.join(root, "references/ship-a-skill/index.html")).href);
+    assert.equal(await page.locator("figure").count(), 22);
+    for (const width of [1440, 768, 390]) {
+      await page.setViewportSize({ width, height: 1000 });
+      await page.locator("#viewport").selectOption(String(width));
+      assert.equal(await page.locator(".capture:visible").count(), 22);
+      assert.equal(await page.locator("#selection").textContent(), `${width}px references`);
+      assert.equal(await page.evaluate(() =>
+        document.documentElement.scrollWidth <= innerWidth), true, `Reference gallery overflow at ${width}`);
+      await page.locator(".capture:visible img").evaluateAll(async images => {
+        for (const image of images) image.loading = "eager";
+        await Promise.all(images.map(image => image.decode()));
+        for (const image of images) {
+          if (image.naturalWidth !== Number(image.getAttribute("width"))) {
+            throw new Error(`Reference dimension mismatch: ${image.getAttribute("src")}`);
+          }
+        }
+      });
+    }
+    await page.setViewportSize({ width: 1440, height: 1000 });
+    await page.locator("#viewport").selectOption("1440");
+    await page.screenshot({ path: path.join(output, "reference-gallery.png"), fullPage: false });
+    assert.deepEqual(errors, []);
+    assert.deepEqual(remote, []);
+    console.log("PASS: showcase, responsive reference gallery, all 66 reference images, keyboard, filtering, dialogs and offline assets.");
   } finally {
     await browser.close();
   }

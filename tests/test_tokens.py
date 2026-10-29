@@ -35,7 +35,7 @@ class TokenTests(unittest.TestCase):
     def test_component_references_are_defined(self):
         import re
         tokens = builder.read_tokens((ROOT / "DESIGN.md").read_text())
-        for file in ("components.css", "showcase.css"):
+        for file in ("components.css", "showcase.css", "references/ship-a-skill/reference.css"):
             references = set(re.findall(r"var\(--([a-z0-9-]+)\)", (ROOT / file).read_text()))
             self.assertFalse(references - tokens.keys(), f"{file}: undefined variables")
 
