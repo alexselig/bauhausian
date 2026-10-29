@@ -1,0 +1,105 @@
+.bh,
+.bh * {
+  box-sizing: border-box;
+}
+
+.bh {
+  color: var(--ink);
+  background: var(--surface);
+  font: var(--type-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.bh [hidden] { display: none !important; }
+.bh a { color: var(--bauhaus-blue); text-underline-offset: 3px; }
+.bh :focus-visible { outline: 2px solid var(--bauhaus-blue); outline-offset: 2px; }
+.bh p { max-width: 68ch; }
+.bh-title { margin: 0; font: var(--type-title); text-transform: uppercase; }
+.bh-heading { margin: 0; font: var(--type-heading); }
+.bh-eyebrow { font: var(--type-eyebrow); letter-spacing: .12em; text-transform: uppercase; }
+.bh-mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.bh-muted { color: var(--ink-muted); }
+
+.bh-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--size-control);
+  padding: var(--space-2) var(--space-3);
+  border: var(--rule-region);
+  border-radius: var(--radius-none);
+  background: var(--surface);
+  color: var(--ink);
+  font: 600 15px/1.2 var(--font-sans);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--fast);
+}
+.bh-button:hover { background: var(--surface-alt); }
+.bh-button--primary { background: var(--bauhaus-blue); color: var(--on-blue); border-color: var(--bauhaus-blue); }
+.bh-button--primary:hover { background: var(--ink); border-color: var(--ink); }
+.bh-button--danger { color: var(--destructive); border-color: var(--destructive); }
+.bh-button--danger:hover { background: var(--destructive-soft); }
+.bh-button:disabled { color: var(--ink-muted); background: var(--surface-alt); border-color: var(--line); cursor: not-allowed; }
+.bh-button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+
+.bh-field { display: grid; gap: var(--space-2); }
+.bh-field > label { font-weight: 600; }
+.bh-input {
+  width: 100%;
+  min-width: 0;
+  min-height: var(--size-control);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-none);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+.bh-input::placeholder { color: var(--ink-muted); }
+.bh-field small { color: var(--ink-muted); font: var(--type-small); }
+.bh-input[aria-invalid="true"] { border-color: var(--destructive); }
+.bh-field .bh-error { color: var(--destructive); }
+
+.bh-status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 6px 10px;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-pill);
+  font: var(--type-pill);
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+.bh-status::before { content: ""; width: 6px; height: 6px; border-radius: var(--radius-circle); background: currentColor; }
+.bh-status--success { color: var(--success); background: var(--success-soft); }
+.bh-status--warning { color: var(--warning); background: var(--warning-soft); }
+.bh-status--neutral { color: var(--ink-muted); background: var(--surface-alt); }
+
+.bh-note { padding: var(--space-3); border-left: 4px solid var(--bauhaus-blue); background: var(--blue-soft); }
+.bh-note--warning { color: var(--warning); border-color: var(--warning); background: var(--warning-soft); }
+.bh-note--error { color: var(--destructive); border-color: var(--destructive); background: var(--destructive-soft); }
+.bh-note p { margin: var(--space-2) 0 0; }
+
+.bh-dialog {
+  width: min(var(--size-evidence-sheet), calc(100% - 32px));
+  max-height: calc(100dvh - 32px);
+  padding: 0;
+  border: var(--rule-frame);
+  border-radius: var(--radius-none);
+  background: var(--surface);
+  color: var(--ink);
+  font: var(--type-body);
+}
+.bh-dialog::backdrop { background: rgb(20 20 20 / .55); }
+.bh-dialog-head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); padding: var(--space-4); border-bottom: var(--rule-region); }
+.bh-dialog-body { padding: var(--space-4); }
+.bh-dialog-body p:first-child { margin-top: 0; }
+.bh-dialog-actions { display: flex; flex-wrap: wrap; gap: var(--space-2); padding: var(--space-3) var(--space-4); border-top: var(--rule-row); }
+.bh-dialog h2 { margin: 0; font: var(--type-heading); }
+
+@media (prefers-reduced-motion: reduce) {
+  .bh *, .bh *::before, .bh *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

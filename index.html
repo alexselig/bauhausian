@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Bauhausian: a functional design language of flat grids, geometric type, blue action and orange framing.">
+  <title>Bauhausian / Design system</title>
+  <link rel="stylesheet" href="bauhausian-tokens.css">
+  <!-- Optional: include fonts.css here for externally hosted design fonts. -->
+  <link rel="stylesheet" href="components.css">
+  <link rel="stylesheet" href="showcase.css">
+  <script src="showcase.js" defer></script>
+</head>
+<body class="bh">
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="sheet">
+    <header class="masthead">
+      <a class="brand" href="#main" aria-label="Bauhausian home">Bauhausian<span>Functional interface system</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#workbench" aria-current="location">Workbench</a>
+        <a href="#foundations">Foundations</a>
+        <a href="#components">Components</a>
+      </nav>
+      <a class="source-link" href="DESIGN.md">Read the design rules <span aria-hidden="true">&nearr;</span></a>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="title-grid" aria-labelledby="page-title">
+        <div class="poster">
+          <span class="bh-eyebrow">A language for useful tools</span>
+          <h1 id="page-title">Form<br>follows<br>the task.</h1>
+          <span class="bh-mono">Bauhausian / 1.0</span>
+        </div>
+        <div class="thesis">
+          <p class="bh-eyebrow">The work is the content</p>
+          <h2>Less decoration.<br>More direction.</h2>
+          <p>Give every region a job. Use type, rules and filled areas to make that job clear. Keep the work visible and the next action obvious.</p>
+          <div class="facts">
+            <div><strong>0</strong><span>Corner radius on controls</span></div>
+            <div><strong>1</strong><span>Dominant color field</span></div>
+            <div><strong>2px</strong><span>Structural frame</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="workbench" class="section" aria-labelledby="workbench-title">
+        <div class="section-heading">
+          <div><p class="bh-eyebrow">Working specimen / fictional records</p><h2 id="workbench-title" class="bh-title">Review queue</h2></div>
+          <span class="bh-status bh-status--neutral">Local demo</span>
+        </div>
+        <p class="intro">Try the search, narrow the list, or open a record. Nothing is sent or saved.</p>
+        <div class="toolbar">
+          <div class="bh-field search"><label for="search">Find an item</label><input id="search" class="bh-input" type="search" placeholder="Search title or category" autocomplete="off"></div>
+          <button id="review-filter" class="bh-button" type="button" aria-pressed="false">Needs review only</button>
+          <button id="reset" class="bh-button" type="button">Clear filters</button>
+          <p id="result-count" class="bh-mono" role="status" aria-live="polite">4 items</p>
+        </div>
+        <div class="table-region">
+          <table>
+            <caption class="sr-only">Fictional items for review</caption>
+            <thead><tr><th scope="col">Item</th><th scope="col">Category</th><th scope="col">State</th><th scope="col"><span class="sr-only">Action</span></th></tr></thead>
+            <tbody>
+              <tr data-state="review"><th scope="row">Workshop inventory<span>Updated today</span></th><td>Operations</td><td><span class="bh-status bh-status--warning">Needs review</span></td><td><button class="bh-button bh-button--primary" data-review="Workshop inventory" aria-label="Review Workshop inventory">Review</button></td></tr>
+              <tr data-state="verified"><th scope="row">Material library<span>Updated yesterday</span></th><td>Reference</td><td><span class="bh-status bh-status--success">Verified</span></td><td><button class="bh-button" data-review="Material library" aria-label="View Material library">View</button></td></tr>
+              <tr data-state="review"><th scope="row">Exhibition checklist<span>Updated yesterday</span></th><td>Planning</td><td><span class="bh-status bh-status--warning">Needs review</span></td><td><button class="bh-button" data-review="Exhibition checklist" aria-label="Review Exhibition checklist">Review</button></td></tr>
+              <tr data-state="draft"><th scope="row">Studio handbook<span>Updated this week</span></th><td>Reference</td><td><span class="bh-status bh-status--neutral">Draft</span></td><td><button class="bh-button" data-review="Studio handbook" aria-label="View Studio handbook">View</button></td></tr>
+            </tbody>
+          </table>
+          <div id="no-results" hidden><h3>No matching items</h3><p>Change your search or clear the filters to see all four examples.</p><button id="empty-reset" class="bh-button">Clear filters</button></div>
+        </div>
+        <noscript><p class="bh-note">JavaScript is disabled. The design specimens remain visible; interactive filtering and review require JavaScript.</p></noscript>
+      </section>
+
+      <section id="foundations" class="section" aria-labelledby="foundations-title">
+        <div class="section-heading"><div><p class="bh-eyebrow">The building blocks</p><h2 id="foundations-title" class="bh-title">Foundations</h2></div><a href="bauhausian-tokens.css">View CSS tokens</a></div>
+        <div class="swatches">
+          <div class="swatch swatch--ink"><strong>Ink</strong><code>#141414</code><span>Text &amp; structure</span></div>
+          <div class="swatch swatch--surface"><strong>Surface</strong><code>#FFFFFF</code><span>The working area</span></div>
+          <div class="swatch swatch--orange"><strong>Orange</strong><code>#ED6C47</code><span>Framing</span></div>
+          <div class="swatch swatch--blue"><strong>Blue</strong><code>#1B6FA8</code><span>Action &amp; selection</span></div>
+          <div class="swatch swatch--yellow"><strong>Yellow</strong><code>#F2B33D</code><span>Tertiary emphasis</span></div>
+        </div>
+        <div class="type-grid">
+          <div><p class="bh-eyebrow">Display / League Spartan</p><p class="type-display">Make<br>it clear.</p><p>Bold geometry for short headings. Uppercase is a tool, not a writing style.</p></div>
+          <div><p class="bh-eyebrow">Body / Figtree</p><p class="type-body">Good tools explain what happens next.</p><p>Sentence case. Short labels. Enough room to read. A hierarchy built from useful distinctions.</p></div>
+          <div><p class="bh-eyebrow">Data / IBM Plex Mono</p><p class="type-data">012345<br>6789.0</p><p>Aligned measures and machine-readable detail. Not a substitute for readable body type.</p></div>
+        </div>
+        <p class="font-note">This offline-first page uses locally available font fallbacks. Include <code>fonts.css</code> or approved self-hosted fonts for the named families.</p>
+      </section>
+
+      <section id="components" class="section" aria-labelledby="components-title">
+        <div class="section-heading"><div><p class="bh-eyebrow">A small, coherent vocabulary</p><h2 id="components-title" class="bh-title">Components</h2></div></div>
+        <div class="specimen-grid">
+          <article><h3 class="bh-heading">Actions</h3><p>One primary action per task. The label names the outcome.</p><div class="button-row"><button class="bh-button bh-button--primary" id="sample-open">Open example</button><button class="bh-button" disabled aria-describedby="disabled-hint">Publish</button></div><p id="disabled-hint" class="bh-muted">Publishing is unavailable in this read-only specimen.</p></article>
+          <article><h3 class="bh-heading">States</h3><p>Text carries the meaning; color reinforces it.</p><div class="button-row"><span class="bh-status bh-status--success">Verified</span><span class="bh-status bh-status--warning">Needs review</span><span class="bh-status bh-status--neutral">Draft</span></div></article>
+          <article><h3 class="bh-heading">Inputs</h3><div class="bh-field"><label for="sample-title">Item title</label><input class="bh-input" id="sample-title" value="New workshop" aria-describedby="title-hint"><small id="title-hint">Use a short, descriptive name. This example does not save.</small></div></article>
+          <article><h3 class="bh-heading">Recovery</h3><div class="bh-note bh-note--warning"><strong>Reference material is unavailable</strong><p>Your draft is unchanged. Continue manually or try loading the reference again.</p></div></article>
+        </div>
+      </section>
+    </main>
+    <footer><span class="bh-eyebrow">Bauhausian / Alex Selig</span><span>Flat grids. Geometric type. Color with a job.</span><a href="DESIGN.md">Design rules</a></footer>
+  </div>
+  <dialog id="review-dialog" class="bh-dialog" aria-labelledby="dialog-title">
+    <div class="bh-dialog-head"><h2 id="dialog-title">Review example</h2><button class="bh-button" id="dialog-close" autofocus>Close</button></div>
+    <div class="bh-dialog-body"><p id="dialog-description"></p><div class="bh-note"><strong>Inspect before deciding</strong><p>A review surface keeps the evidence and its limits visible. This specimen contains no real records and does not change any data.</p></div></div>
+    <form method="dialog" class="bh-dialog-actions"><button class="bh-button bh-button--primary">Return to workbench</button></form>
+  </dialog>
+</body>
+</html>
